@@ -1,6 +1,2 @@
-require "nfl_cli/version"
-
-module NflCli
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative 'top_cats/version'
+require 'pry'
