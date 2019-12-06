@@ -9,6 +9,9 @@ class Api
   response["sports"][0]["leagues"][0]["teams"].each do |team|
     name = team["team"]["displayName"]
     record = team["team"]["record"]["items"][0]["summary"]
+    roster_link = team["team"]["links"][1]["href"]
+    schedule_link = team["team"]["links"][3]["href"]
+    injury_report = team["team"]["links"][8]["href"]
   binding.pry
   end 
   end
