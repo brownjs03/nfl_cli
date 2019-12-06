@@ -1,1 +1,3 @@
-NflCli::Team 
+class Team 
+  
+end 
