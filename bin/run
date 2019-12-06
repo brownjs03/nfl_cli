@@ -2,3 +2,4 @@
 
 require_relative '../lib/nfl_cli'
 
+Api.fetch 
