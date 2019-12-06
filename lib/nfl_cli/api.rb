@@ -12,7 +12,7 @@ class Api
     roster_link = team["team"]["links"][1]["href"]
     schedule_link = team["team"]["links"][3]["href"]
     injury_report = team["team"]["links"][8]["href"]
-  binding.pry
+    puts name
   end 
   end
   
