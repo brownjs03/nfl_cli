@@ -2,4 +2,4 @@
 
 require_relative '../lib/nfl_cli'
 
-Cli.start
+Cli.new.start

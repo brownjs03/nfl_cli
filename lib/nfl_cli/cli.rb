@@ -1,12 +1,15 @@
 class Cli 
   
-  def self.start 
-    Api.fetch 
-    puts "Welcome to the NFL! Which team would you like information on?"
-    Team.all.each do |team|
-    puts team.name 
-  end 
+  def start 
+    Api.fetch
+    list_teams
     
+  end 
+  
+  def list_teams
+    Team.all.each_with_index do |team, index|
+      puts "#{index + 1}. #{team.name}"
+    end 
   end 
   
 end 
