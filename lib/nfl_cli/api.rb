@@ -1,5 +1,4 @@
 require 'httparty'
-require 'pry'
 
 class Api 
   
@@ -12,7 +11,7 @@ class Api
     roster_link = team["team"]["links"][1]["href"]
     schedule_link = team["team"]["links"][3]["href"]
     injury_report = team["team"]["links"][8]["href"]
-    puts name
+    Team.new(name, record, schedule_link, roster_link, injury_report)
   end 
   end
   
