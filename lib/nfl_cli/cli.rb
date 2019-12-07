@@ -15,7 +15,6 @@ class Cli
   
   def menu
     puts "Please enter the number for the team you would like to see more about!"
-    
   end 
   
 end 

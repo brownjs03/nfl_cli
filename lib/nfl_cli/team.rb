@@ -9,7 +9,7 @@ class Team
     @record = record
     @schedule_link = schedule_link
     @roster_link = roster_link
-    @injury_reprot = injury_report
+    @injury_report = injury_report
     @@all << self 
   end 
   
