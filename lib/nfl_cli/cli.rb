@@ -14,7 +14,15 @@ class Cli
   end 
   
   def menu
-    puts "Please enter the number for the team you would like to see more about!"
+    puts "Please enter the number for the team you would like to see more about!" 
+    input = gets.strip 
+    if input.to_i > 0 
+      puts Team.all[input.to_i - 1].name
+      puts "Record: #{Team.all[input.to_i - 1].record}"
+      puts "Schedule: #{Team.all[input.to_i - 1].schedule_link}"
+      puts "Roster: #{Team.all[input.to_i - 1].roster_link}"
+      puts "Injury Report: #{Team.all[input.to_i - 1].injury_report}"
+    end 
   end 
   
 end 
