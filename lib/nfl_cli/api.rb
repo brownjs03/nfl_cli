@@ -1,5 +1,3 @@
-require 'httparty'
-
 class Api 
   
   def self.fetch  
@@ -12,7 +10,7 @@ class Api
     schedule_link = team["team"]["links"][3]["href"]
     injury_report = team["team"]["links"][8]["href"]
     Team.new(name, record, schedule_link, roster_link, injury_report)
-  end 
+    end 
   end
   
 end 
