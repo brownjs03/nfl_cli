@@ -30,7 +30,7 @@ class Cli
       list_teams
       menu 
     elsif input == "exit"
-    puts "See you next week!"
+    puts "See you here next week for your NFL needs!"
     exit 
     else puts 
       puts "I'm sorry, That input was not recognized."
