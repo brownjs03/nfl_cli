@@ -20,6 +20,20 @@ Or install it yourself as:
 
 Upon starting this gem you will be greeted with a list of all of the teams which you can receive information upon. You will make a selection based on the number associated with the team. After selecting a team, you will have the option to select additional teams, display the full list again or exit the program. 
 
+To access the gem you can clone the repo into your terminal:
+  ```git clone git@github.com:brownjs03/nfl_cli.git```
+  
+From there you will want to move into the main directory:
+
+  ```cd nfl_cli``` 
+  
+You will then install the necessary gems:
+  ```ruby bin/setup``` 
+  
+You will the run the porgram by typing the following into the terminal: 
+
+  ```ruby bin/run```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
