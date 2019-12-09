@@ -1,9 +1,4 @@
-Testing Push 
-# NflCli
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nfl_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This Ruby gem provides a CLI to interact with ESPN and receive current information regarding NFL teams. The user will be able to see the current record, roster, schedule and injury report for each team. 
 
 ## Installation
 
@@ -23,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Upon starting this gem you will be greeted with a list of all of the teams which you can receive information upon. You will make a selection based on the number associated with the team. After selecting a team, you will have the option to select additional teams, display the full list again or exit the program. 
 
 ## Development
 
